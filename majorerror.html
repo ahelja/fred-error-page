@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fred</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/waroot/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/waroot/favicon-16x16.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="/waroot/style.css">
+</head>
+<body onload="displayBlock()">
+    <img id="logo" src="/waroot/logo.svg" alt="logo">
+    <section id="en">
+        <div id="title">
+            Sorry, the page can not be found
+            <br>We apologize for the inconvenience and invite you to continue experiencing our website
+        </div>
+        <a id="link" href="https://www.fred.com">BACK TO WEBSITE</a>
+    </section>
+    <section id="fr">
+        <div id="title">
+            Désolé, cette page n'est pas accessible
+            <br>Nous nous excusons de la gêne occasionnée et vous invitons à continuer votre visite.
+        </div>
+        <a id="link" href="https://www.fred.com">RETOUR AU SITE</a>
+    </section>
+    <section id="it">
+        <div id="title">
+            Spiacente, questa pagina non è accessibile
+            <br>Ci scusiamo per l'inconveniente e vi invitiamo a continuare la vostra visita.
+        </div>
+        <a id="link" href="https://www.fred.com">RITORNO AL SITO</a>
+    </section>
+    <section id="jp">
+        <div id="title">
+            ページの表示ができません。
+            <br>大変ご迷惑をおかけしております。ベルルッティウェブサイトへアクセスいただき有難うございます。
+        </div>
+        <a id="link" href="https://www.fred.com">ウェブサイトへ戻る</a>
+    </section>
+    <section id="cn">
+        <div id="title">
+            对不起，找不到该页面
+            <br>我们对此造成的不便表示歉意并请求您继续浏览我们的网站。
+        </div>
+        <a id="link" href="https://www.fred.com">返回网站</a>
+    </section>
+    <section id="ko">
+        <div id="title">
+            페이지를 찾을 수가 없습니다.
+            <br>불편을 끼쳐드려 대단히 죄송합니다. 계속해서 다른 페이지를 이용해 주시기 바랍니다.
+        </div>
+        <a id="link" href="https://www.fred.com">웹사이트로 돌아가기</a>
+    </section>
+    <script>
+        var lang = navigator.language;
+        lang = lang.split("-")[0];
+        var languages = ["en", "fr", "it", "jp", "cn", "ko"];
+        function displayBlock(){
+            document.getElementById(lang).style.display= "block";
+        }
+    </script>
+</body>
+</html>

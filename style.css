@@ -1,0 +1,65 @@
+* {
+  line-height: 1.2;
+  margin: 0;
+}
+section {
+  display: none;
+}
+@font-face {
+  font-family: 'futura-pt-medium';
+  src: url('/waroot/medium.woff2') format('woff2'), 
+  url('/waroot/medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'futura-pt-book';
+  src: url('/waroot/book.woff2') format('woff2'), 
+  url('/waroot/book.woff') format('woff');
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  color: #76d0ca;
+  display: table;
+  font-family: 'futura-pt-book', 'Source Sans Pro', sans-serif;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  background: url(/waroot/bg.jpg) no-repeat center;
+  background-size: cover;
+}
+body {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 2em auto;
+}
+#logo {
+  width: 104px;
+  position: absolute;
+  transform: translate(-50%, 0);
+  top: 22px;
+  left: 50%;
+}
+#title {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: 'futura-pt-book', 'Source Sans Pro', sans-serif;
+}
+#link {
+  font-family: 'futura-pt-medium', 'Source Sans Pro', sans-serif;
+  background-color: #fff;
+  border: none;
+  color: #0a1532;
+  padding: 12px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
