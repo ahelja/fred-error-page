@@ -1,0 +1,18 @@
+{
+  "name": "refarchdata",
+  "version": "3.0.0",
+  "description": "This is a repository for the config data that goes with the ref arch storefront.",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "if [ -f errorpages.zip ] ; then rm -r errorpages.zip && zip -r errorpages.zip . -x '.*' -x '__MACOSX' -x 'package.json' ; else zip -r errorpages.zip . -x '.*' -x '__MACOSX' -x 'package.json' ; fi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalesforceCommerceCloud/storefrontdata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/SalesforceCommerceCloud/storefrontdata"
+}
