@@ -1,8 +1,8 @@
 {
-  "name": "refarchdata",
-  "version": "3.0.0",
-  "description": "This is a repository for the config data that goes with the ref arch storefront.",
-  "main": "",
+  "name": "CustomErrorPages",
+  "version": "1.0.0",
+  "description": "This page enables you to download a template zip file containing all error pages which are used in cases where the application server is down or doesn't respond in time. After you've downloaded this zip file, you're free to customize its content, archive your work, and upload it here. After your upload, the zip file will be automatically extracted and the content will be stored on the server. The extraction is triggered by a job every two hours.",
+  "main": "package.json",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SalesforceCommerceCloud/storefrontdata.git"
+    "url": "https://github.com/ahelja/fred-error-page"
   },
-  "author": "",
+  "author": "nobody",
   "license": "ISC",
-  "homepage": "https://github.com/SalesforceCommerceCloud/storefrontdata"
+  "homepage": "https://github.com/ahelja/fred-error-page"
 }
